@@ -1,0 +1,19 @@
+/*  #photo-tem {
+    display: none;
+}  */
+
+
+
+@import "reset.css";
+@import "base.css";
+@import "layout.css";
+@import "module.css";
+
+
+
+
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: rgb(179, 190, 199);
+    margin: 10px 10px  auto;
+}
