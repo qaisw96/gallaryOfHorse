@@ -17,3 +17,11 @@ body {
     background-color: rgb(179, 190, 199);
     margin: 10px 10px  auto;
 }
+
+/* div {
+    display: none;
+} */
+
+.filtered{
+    display: block;
+}
