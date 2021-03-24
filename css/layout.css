@@ -7,7 +7,7 @@ header {
 }
 
 h1 {
-    font-size: xx-large;
+    font-size: x-large;
     margin-bottom: 10px;
 }
 
@@ -17,10 +17,17 @@ main {
     text-align: center;
     margin-top: 30px;
 }
+
 div {
-    float: left;
     width: 400px;
     height: 400px;
+
+}
+#sec1, #sec2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  center;
+
 }
 
 
@@ -40,3 +47,40 @@ select {
     visibility: visible;
 }
 
+#mastachsec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  center;
+
+
+}
+
+#mastachsec img {
+    width: 200px;
+    height: 200px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  center;
+    padding: 10px;
+
+
+}
+
+ul li {
+    margin: 20px;
+    
+}
+
+ul li a {
+    border: cornflowerblue solid 3px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+a:hover {
+    color: rgb(72, 26, 114);
+}
