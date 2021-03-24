@@ -1,6 +1,6 @@
 'use strict';
 
-const unKnowns = []; 
+const hornsObjectsTwo = []; 
 let page = "";
 
 // Constractor function
@@ -176,12 +176,12 @@ const ajaxSetiings1 = {
 
 $.ajax("data/page-2.json", ajaxSetiings1).then((data) => {
     data.forEach(element => {
-        unKnowns.push(new Horns(element))
+        hornsObjectsTwo.push(new Horns(element))
 
 
     });
-    unKnowns.forEach((unKnown) => {
-        unKnown.renderWithMustache();
+    hornsObjectsTwo.forEach((objectTwo) => {
+        objectTwo.renderWithMustache();
     });
     
     for (let i=0; i<data.length; i++) {
