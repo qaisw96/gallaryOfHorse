@@ -74,13 +74,13 @@ ul li {
     
 }
 
-ul li a {
+ul li {
     border: cornflowerblue solid 3px;
     text-decoration: none;
     color: black;
     padding: 5px;
 }
 
-a:hover {
+li:hover {
     color: rgb(72, 26, 114);
 }
