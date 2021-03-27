@@ -71,10 +71,19 @@ Horns.prototype.renderWithMustache = function() {
 }
 
 // Display page Two
-$("#page-two").on("click", function() {
+$("#part-two").on("click", function(event) {
+    $("#mastachsec").css("display", "flex")
+    event.preventDefault()
     $("#mastachsec").html("")
     getDataFromAjax(2)
    $("#sec1").html("") 
+
+})
+
+$("#part-one").on("click", function() {
+    $("#mastachsec").css("display", "none")
+    $("#sec1").html("")
+    getDataFromAjax(1)
 
 })
 
